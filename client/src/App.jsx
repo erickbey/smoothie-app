@@ -8,7 +8,7 @@ function App() {
       <NavBar />
 
       <section className="bg-movie__container">
-        <video autoPlay muted loop>
+        <video autoPlay muted loop className='bg-movie'>
           <source src={promoMovie} type="video/mp4" />
         </video>
         <button className="order-now__btn"></button>
