@@ -1,5 +1,6 @@
 import './App.css';
 import promoMovie from './assets/smoothie-b-roll.mp4';
+import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 
 function App() {
@@ -13,6 +14,14 @@ function App() {
         </video>
         <button className="order-now__btn"></button>
       </section>
+
+      <section className="rewards-promo__container"></section>
+
+      <section className="order-options__container"></section>
+
+      <section className="promotion__container"></section>
+
+      <Footer />
     </div>
   );
 }
