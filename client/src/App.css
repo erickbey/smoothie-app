@@ -6,6 +6,27 @@
   overflow: hidden;
 }
 
+.movie__title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.order__btn {
+  position: absolute;
+  bottom: 10%;
+  left: 47%;
+  height: 50px;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  background-color: var(--color-primary);
+  color: white;
+}
+
 .bg-movie {
   max-height: 600px;
   min-width: 100%;
