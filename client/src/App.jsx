@@ -20,7 +20,12 @@ function App() {
         <button className="order-now__btn"></button>
       </section>
 
-      <section className="rewards-promo__container"></section>
+      <section className="favorites__container">
+        <div className="favorites-btn__container">
+          <div className="favorite__btn">FAVORITES</div>
+          <div className="recents__btn">RECENTS</div>
+        </div>
+      </section>
 
       <section className="order-options__container"></section>
 
