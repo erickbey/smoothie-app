@@ -9,8 +9,11 @@ function App() {
       <NavBar />
 
       <section className="bg-movie__container">
-        <div className="movie__title">CACTUS JUICE SMOOTHIES</div>
-        <div className="order__btn">ORDER NOW</div>
+        <div className="title-centering__container">
+          <div className="movie__title">CACTUS JUICE SMOOTHIES</div>
+          <div className="title__description">Smoothies are prepared frozen and ready to blend, with options available such as Piñalada, Pink Dragon, Blue Cacao, Hint of Mint, and Matcha Maker</div>
+          <div className="order__btn">ORDER NOW</div>
+        </div>
         <video autoPlay muted loop className='bg-movie'>
           <source src={promoMovie} type="video/mp4" />
         </video>
