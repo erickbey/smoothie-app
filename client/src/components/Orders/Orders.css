@@ -1,0 +1,31 @@
+.orders-items__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.orders__image {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.order-item__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orders__image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.orders-header__text {
+    font-size: 1.9rem;
+}

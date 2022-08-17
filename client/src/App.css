@@ -93,13 +93,9 @@
 }
 
 .order-options__container {
-  height: 600px;
+  height: 100%;
   width: 50%;
-  margin: 0 auto;
-  margin-top: 20px;
-  background-color: red;
-  display: flex;
-  justify-content: center;
+  margin: 20px auto;
 }
 
 .promotion__container {
