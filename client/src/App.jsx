@@ -1,5 +1,6 @@
 import './App.css';
 import promoMovie from './assets/smoothie-b-roll.mp4';
+import Favorites from './components/Favorites/Favorites';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 
@@ -24,6 +25,10 @@ function App() {
         <div className="favorites-btn__container">
           <div className="favorite__btn">FAVORITES</div>
           <div className="recents__btn">RECENTS</div>
+        </div>
+
+        <div className="favorite-items__container">
+          <Favorites />
         </div>
       </section>
 
