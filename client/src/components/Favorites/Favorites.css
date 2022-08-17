@@ -1,0 +1,25 @@
+.favorites-item__container {
+    width: 375px;
+    height: 275px;
+    border: 1px dashed rgba(97, 93, 93, 0.521);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.heart__icon {
+    font-size: 2rem;
+}
+
+.favorite-headline__text {
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+.favorite__subtext {
+    width: 80%;
+    font-size: .9rem;
+}
