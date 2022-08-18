@@ -98,10 +98,8 @@
   margin: 20px auto;
 }
 
-.promotion__container {
-  height: 400px;
+.promotion-component__container {
+  height: 100%;
   width: 50%;
-  margin: 0 auto;
-  margin-top: 20px;
-  background-color: orange;
+  margin: 50px auto;
 }
