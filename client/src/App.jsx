@@ -4,6 +4,7 @@ import Favorites from './components/Favorites/Favorites';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import Orders from './components/Orders/Orders';
+import Promotions from './components/Promotions/Promotions';
 
 function App() {
   return (
@@ -37,7 +38,9 @@ function App() {
         <Orders />
       </section>
 
-      <section className="promotion__container"></section>
+      <section className="promotion-component__container">
+        <Promotions />
+      </section>
 
       <Footer />
     </div>
